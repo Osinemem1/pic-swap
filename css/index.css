@@ -1,0 +1,337 @@
+*{
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+}
+
+/* My nabar area /////////////// */
+.navbar {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  color: #7b7b7b;
+  font-family: "Roboto";
+  width: 100%;
+  height: 90px;
+  position: sticky;
+  top: -0.5rem;
+  z-index: 9999;
+}
+
+.navbar-logo {
+  font-size: 24px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-menu li {
+  margin-right: 20px;
+}
+
+.navbar-menu li a {
+  color: #7b7b7b;
+  text-decoration: none;
+}
+
+.navbar-menu li a:hover{
+  color: #333 ;
+}
+.navbar-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+input{
+  height: 2rem;
+  width: 300px;
+  border-radius: 3px;
+  border: none;
+
+  
+}
+
+
+input:hover{
+  transition-duration: 1s;
+  transform: scale(1.2);
+}
+input::placeholder{
+  color: #333;
+  font-family: "Roboto";
+  padding-inline: 1rem;
+  
+}
+
+/* for my hero section area */
+
+.editor{
+  background-color:#e2e2e4;
+}
+
+.editor1{
+  display: flex;
+  padding-inline: 3rem;
+}
+
+.editor2 img{
+height: 70vh;
+margin-top: 3rem;
+}
+
+.editor2 h1{
+  text-align: center;
+  font-family: "Roboto";
+  margin-top: 2rem;
+  padding-inline: 2rem;
+  font-size: 4rem;
+  font-weight: bolder;
+  text-shadow:20px 10px 30px black;
+}
+
+.editor2 button{
+  margin-left: 2rem;
+  margin-top: 2rem;
+  width: 60%;
+  height: 70px;
+  border-radius: 30px;
+  font-weight: 900px;
+  font-size: 1.2rem;
+  background-color: #7b7b7b;
+  color: white;
+  border: none;
+}
+
+.editor2 button:hover{
+background-color:  #7b7b7b83;
+transform: skew(4px);
+transition-duration: 2s;
+}
+
+
+
+
+
+.body{
+justify-content: center;
+margin-top: 5rem;
+
+}
+
+.body h1{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: "Roboto";
+}
+.body1 {
+display: flex;
+gap: 3rem;
+margin-top: 2rem;
+padding-inline: 3rem;
+font-family: "Roboto";
+}
+.body2{
+  text-align: justify;
+ background-color: #e2e2e4;
+  box-shadow: 2px 3px 13px black;
+  background-color: rgba(0, 0, 0, 0.696);
+  background-blend-mode: overlay;
+  padding-inline: 2rem;
+  color: white;
+  height: 200px;
+  border-radius: 5px;
+  
+}
+
+.ri-pie-chart-line{
+  font-size: 2rem;
+}
+.ri-building-2-line{
+   font-size: 2rem;
+}
+
+.ri-group-line{
+  font-size: 2rem;
+}
+/* sliderrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
+.main-one{
+  padding-inline: 3rem;
+  margin-top: 8rem;
+  display: flex;
+  text-align: center;
+
+}
+.main1 img{
+  height: 70vh;
+  margin-top: 2rem;
+
+}
+
+.main1 h1{
+  text-align: center;
+  font-family: "Poppins";
+  margin-top: 10rem;
+  padding-inline: 2rem;
+  font-size: 3rem;
+  font-weight: bolder;
+  /* text-shadow:20px 10px 30px black; */
+}
+
+.main1 button{
+  margin-left: 2rem;
+  margin-top: 2rem;
+  width: 30%;
+  height: 70px;
+  border-radius: 30px;
+  font-weight: 900px;
+  font-size: 1.2rem;
+  background-color: #7b7b7b;
+  color: white;
+  border: none;
+}
+
+.fire-man{
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins";
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+  font-stretch: expanded;
+}
+
+.photo-one{
+  display: flex;
+  gap: 5rem;
+  margin-top: 7rem;
+  padding-inline: 5rem;
+
+}
+
+.image{
+  width: 230px;
+  position: relative;
+}
+
+.image img{
+  height: 60vh;
+  width: 120%;
+  display: block;
+  border-radius: 10px;
+  
+  
+
+}
+
+ .ri-pie-chart-line.ri-building-2-line.ri-group-line{
+  font-size: 2rem;
+ }
+
+.photo-text{
+  width: 120%;
+  height: 101%;
+  top: 0;
+  left: 0;
+  position:absolute ;
+  background-color: #33333396;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity:0;
+  transition: 1s;
+  padding-left: 2rem;
+  margin-top: -0.18rem;
+  color: wheat;
+  font-family: "Roboto";
+  border-radius: 10px;
+}
+
+.photo-text:hover{
+  
+  opacity: 1;
+
+}
+
+.remix i{
+font-size: 2rem;
+color: white;
+font-weight: 900;
+}
+
+.image button{
+  height: 50px;
+  width: 200px;
+  margin-top: 3rem;
+  font-family: "Roboto";
+  background-color: rgba(245, 222, 179, 0.851);
+  color: white;
+  font-weight: 900;
+  border: none;
+
+}
+
+.man button{
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MY MEDIA SCRREN STYLING AREA /////////=====--===-== */
+@media screen and (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+    z-index: 1;
+  }
+
+  .navbar-menu.active {
+    display: flex;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+}
